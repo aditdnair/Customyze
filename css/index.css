@@ -1,0 +1,119 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.phone-menu{
+    width: 100%;
+    padding-left: 0px;
+}
+
+.nav-bar{
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;    
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.links{
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;  
+    width: 100%;
+    z-index: 1;    
+}
+
+.nav-links{
+    font-weight: 400;
+    font-size: 1.25em;
+    margin: 1em 0.5em;
+}
+
+.logo{
+    float: left;
+    max-width: 12em;
+    margin: 0.5em 0em 0.5em 0.5em;
+}
+
+.side-button{
+    background: none;
+    background-image: url(../svg/side_button.svg);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    border: none;
+    height: 2em;
+    width: 2em;
+}
+
+.phone-menu > li {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    float: none;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+}
+
+li > a{
+    text-decoration: none;
+    color: black;
+}
+
+.landing{
+    background-image: url(../svg/home_bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75vw;
+}
+
+
+footer{
+    background-color: #000000;
+    height: 20vh;
+}
+
+.footer > div{
+    text-align: center;
+    display: block;
+}
+
+.refer{
+    width: 100%;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 678px) {
+    .nav-toggle{
+        display: inline;
+    }
+
+    .lg-menu{
+        display: none;
+    }
+
+    .nav-bar{
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 679px) {
+    .nav-toggle{
+        display: none;
+    }
+
+    .lg-menu{
+        display: block;
+    }
+}
