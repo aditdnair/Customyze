@@ -12,32 +12,59 @@
 <body class="container-fluid">
 
     <nav class="navbar nav-bar row">
-        <a href="/"><img src="../svg/name_logo.svg" class="logo"></a>        
+        <a href="../html/home.html"><img src="../svg/name_logo.svg" class="logo"></a>        
         <button type="button" class="navbar-toggle nav-toggle side-button" data-toggle="collapse" data-target="#my-nav"></button>
         <div class="collapse navbar-collapse links" id="my-nav">
             <ul class="mr-auto phone-menu">
-                <li><a href="#" class="nav-links">Get Started</a></li>
-                <li><a href="#" class="nav-links">Contacts</a></li>
+                <li><a href="../html/get-started.html" class="nav-links">Get Started</a></li>
+                <li><a href="../html/contacts.html" class="nav-links">About Us</a></li>
             </ul>
         </div>
         <div class="lg-menu" id="my-nav">
             <ul class="mr-auto pc-list">
-                <li><a href="#" class="nav-links">Get Started</a></li>
-                <li><a href="#" class="nav-links">Contacts</a></li>
+                <li><a href="../html/get-started.html" class="nav-links">Get Started</a></li>
+                <li><a href="../html/contacts.html" class="nav-links">About Us</a></li>
             </ul>
         </div>
     </nav>
 
+    <div class="spacer"></div>  
+
     <div class="row">
-        <div class="card col-6 offset-6">
-            <form class="form">
-                <label>Email</label>
-                <input type="email" class="input-field">
-                <br>
-                <label>Password</label>
-                <input type="email" class="input-field">
-                <br>
-                <input type="submit" class="submit-button">
+        <div class="card mx-auto shadow login-form">
+            <form class="p-4 row no-gutters">
+                
+                <div class="col-md-4 d-flex flex-column justify-content-center border-right pr-3">
+                    <div class="d-flex justify-content-center">
+                        <img src="../svg/logo_border.svg" class="card-img w-75 pb-2">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img src="../svg/name.svg" class="card-img w-75 pb-2">
+                    </div>    
+                </div>
+
+                <div class="col-md-6 offset-md-1">
+                    <div class="pb-2 font-weight-bold h1">
+                        <span>Login</span>
+                    </div>
+                    <div class="form-group py-1">
+                        <label class="h4">Email</label>
+                        <br>
+                        <input type="email" class="input-field" placeholder="Enter Email" required>
+                    </div>
+                    <div class="form-group py-1">
+                        <label class="h4">Password</label>
+                        <br>
+                        <input type="password" class="input-field" placeholder="Enter Password" required> 
+                    </div>
+                    <div class="form-group d-flex justify-content-center pb-2">
+                        <span>New here? <a class="register-link" href="../html/get-started.html">Get Started</a></span>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="submit-button"><div class="button-inlay">Submit</div></button>
+                    </div>                
+                </div>
+
             </form>
         </div>    
     </div>
