@@ -11,6 +11,75 @@
 </head>
 <body class="container-fluid">
 
+    <nav class="navbar nav-bar row">
+        <a href="../html/home.html"><img src="../svg/name_logo.svg" class="logo"></a>        
+        <button type="button" class="navbar-toggle nav-toggle side-button" data-toggle="collapse" data-target="#my-nav"></button>
+        <div class="collapse navbar-collapse links" id="my-nav">
+            <ul class="mr-auto phone-menu">
+                <li><a href="../html/home.html" class="nav-links">Home</a></li>
+                <li><a href="/" class="nav-links">Account</a></li>
+            </ul>
+        </div>
+        <div class="lg-menu" id="my-nav">
+            <ul class="mr-auto pc-list">
+                <li><a href="../html/home.html" class="nav-links">Home</a></li>
+                <li><a href="/" class="nav-links">Account</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="spacer"></div>  
+
+    <div class="row d-flex flex-column">        
+        <div class="d-flex">
+            <div class="d-flex flex-column col-md-4 align-self-center">
+                <div class="d-flex flex-row my-5 mr-md-n5">
+                    <select class="custom-select d-flex align-self-center mx-4">
+                        <option selected>CPU</option>
+                    </select>
+                    <img src="../svg/cpu.svg">
+                </div>
+                <div class="d-flex flex-row my-5">
+                    <select class="custom-select d-flex align-self-center mx-4">
+                        <option selected>RAM</option>
+                    </select>
+                    <img src="../svg/ram.svg">
+                </div>
+                <div class="d-flex flex-row my-5 mr-md-n5">
+                    <select class="custom-select d-flex align-self-center mx-4">
+                        <option selected>Storage</option>
+                    </select>
+                    <img src="../svg/storage.svg">
+                </div>
+            </div>
+            
+            <div class="d-flex flex-column h-75 mt-4">
+                <img class="p-2 w-100 mx-1" src="../svg/pc_menu.svg">
+            </div>
+            
+            <div class="d-flex flex-column col-md-4 align-self-center">
+                <div class="d-flex flex-row my-5 ml-md-n5">
+                    <img src="../svg/gpu.svg">     
+                    <select class="custom-select d-flex align-self-center mx-4">
+                        <option selected>GPU</option>
+                    </select>
+                </div>
+                <div class="d-flex flex-row my-5">
+                    <img src="../svg/motherboard.svg">
+                    <select class="custom-select d-flex align-self-center mx-4">
+                        <option selected>Motherboard</option>
+                    </select>
+                </div>
+                <div class="d-flex flex-row my-5 ml-md-n5">
+                    <img src="../svg/psu.svg">
+                    <select class="custom-select d-flex align-self-center mx-4">
+                        <option selected>PSU</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

@@ -102,6 +102,10 @@ footer{
     display: block;
 }
 
+.media-icons:hover{
+    opacity: 50%;
+}
+
 .refer{
     width: 100%;
     color: #ffffff;
@@ -197,3 +201,5 @@ footer{
     color: #ad00ff;
     text-decoration: none;
 }
+
+/*  ------------ Section ------------  */
