@@ -1,18 +1,19 @@
-<svg width="90" height="100" viewBox="0 0 90 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="90" height="100">
-<rect x="1" y="1" width="87.2857" height="98" rx="2" stroke="black" stroke-width="2"/>
-<circle cx="44.6429" cy="42.8571" r="9.71429" stroke="black" stroke-width="2"/>
-<circle cx="82.1429" cy="92.8571" r="1.78571" fill="#C4C4C4"/>
-<circle cx="82.1429" cy="7.14289" r="1.78571" fill="#C4C4C4"/>
-<circle cx="7.14286" cy="7.14289" r="1.78571" fill="#C4C4C4"/>
-<path d="M32.1429 76.7857C35.7143 77.6785 38.8621 78.5714 44.6429 78.5714C64.3673 78.5714 80.3571 62.5816 80.3571 42.8571C80.3571 23.1327 64.3673 7.14282 44.6429 7.14282C24.9184 7.14282 8.92857 23.1327 8.92857 42.8571C8.92857 53.8343 13.3929 61.6071 19.6429 67.8571" stroke="black" stroke-width="2"/>
-<path d="M16.0864 86.4432L6.68104 79.2645C6.15799 78.8653 6.15641 78.0784 6.67785 77.6771L36.6501 54.6097C37.4217 54.0158 38.5007 54.7628 38.2164 55.6941L26.8427 92.9569C26.6393 93.6234 25.8335 93.8827 25.2796 93.4599L16.0864 86.4432Z" stroke="black" stroke-width="2"/>
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="100" height="100" fill="white"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="0" width="90" height="100">
+<rect x="6" y="1" width="87.2857" height="98" rx="2" stroke="black" stroke-width="2"/>
+<circle cx="49.6429" cy="42.8571" r="9.71429" stroke="black" stroke-width="2"/>
+<circle cx="87.1429" cy="92.8571" r="1.78571" fill="#C4C4C4"/>
+<circle cx="87.1429" cy="7.14289" r="1.78571" fill="#C4C4C4"/>
+<circle cx="12.1429" cy="7.14289" r="1.78571" fill="#C4C4C4"/>
+<path d="M37.1429 76.7857C40.7143 77.6785 43.8621 78.5714 49.6429 78.5714C69.3673 78.5714 85.3571 62.5816 85.3571 42.8571C85.3571 23.1327 69.3673 7.14282 49.6429 7.14282C29.9184 7.14282 13.9286 23.1327 13.9286 42.8571C13.9286 53.8343 18.3929 61.6071 24.6429 67.8571" stroke="black" stroke-width="2"/>
+<path d="M21.0864 86.4432L11.681 79.2645C11.158 78.8653 11.1564 78.0784 11.6779 77.6771L41.6501 54.6097C42.4217 54.0158 43.5007 54.7628 43.2164 55.6941L31.8427 92.9569C31.6393 93.6234 30.8335 93.8827 30.2796 93.4599L21.0864 86.4432Z" stroke="black" stroke-width="2"/>
 </mask>
 <g mask="url(#mask0)">
-<rect x="-21.4286" width="133.929" height="100" fill="url(#paint0_linear)"/>
+<rect x="-16.4286" width="133.929" height="100" fill="url(#paint0_linear)"/>
 </g>
 <defs>
-<linearGradient id="paint0_linear" x1="45.5357" y1="0" x2="45.5357" y2="100" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear" x1="50.5357" y1="0" x2="50.5357" y2="100" gradientUnits="userSpaceOnUse">
 <stop stop-color="#AD00FF"/>
 <stop offset="1" stop-color="#0057FF"/>
 </linearGradient>
