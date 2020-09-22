@@ -1,7 +1,7 @@
 
 # Project Customyze ![](/svg/logo_border.svg)
 
-Project Customyze is a concept for a pc part picking and customization website.
+Project Customyze is a concept for a device part picking and customization website.
 
 ## Contributors
 
