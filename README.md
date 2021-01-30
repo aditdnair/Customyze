@@ -50,6 +50,6 @@ Project Customyze is a concept for a device part picking and customization websi
 
 ![About us](/screenshots/about.png)
 
- ## Future Scope
+## Future Scope
 
 This project is a concept that can be scaled and improved upon by addition of features such as automated hardware compatibility checks, redirection to other websites based on stock availability and a payement gateway.
